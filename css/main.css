@@ -1599,6 +1599,9 @@ img {
    padding-top: 30px;
    background-color: #70e4f1;
 }
+.personage__top[data-color="red"] {
+   background-color: #fe5b45;
+}
 .personage__top::before {
    content: "";
    position: absolute;

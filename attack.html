@@ -210,14 +210,22 @@
                      </div>
                   </div>
                   <div class="modal-body">
-                     <div class="modal-body__attack">How many units you want to use for the attack?</div>
-                     <p class="modal-body__text">
-                        You’ll need a secure wallet like Metamask. This will also act as your login to the game (no extra password
-                        needed).
-                     </p>
+                     <div class="modal-body__question">How many units you want to use for the attack?</div>
+
                      <div class="modal-body__attack">A result of the attack</div>
-                     <div class="modal-body__result">x17 for 4 days</div>
+                     <div class="modal-body__result">
+                        <img class="modal-body__result-img" src="assets/images/fish-in-ice.png" />
+                        <div class="modal-body__result-text">x17 for 4 days</div>
+                     </div>
                      <div class="modal-body__attack">Enter the wallet address which you want to attack</div>
+                     <input
+                        class="modal__input"
+                        name=" email "
+                        type="email "
+                        alt="Email "
+                        pattern="[A-z0-9_.-]{1,}@[A-z0-9_.-]{1,}.[A-z]{2,8}"
+                        required=""
+                     />
                      <button class="button modal-body__btn" data-color="red">Attack</button>
                   </div>
                </div>

@@ -1471,6 +1471,10 @@ img {
    color: #5865b2;
    padding-right: 20px;
 }
+.modal-body__result {
+   background: url(/assets/images/fish-in-ice.png) no-repeat left;
+   height: 40px;
+}
 .close {
    position: relative;
 }
